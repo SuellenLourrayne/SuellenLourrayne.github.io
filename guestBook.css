@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.progress-bar {
+    animation: loading 1.5s;
+    animation-iteration-count: 2;
+    position: fixed;
+    top: 0%;
+    height: 0.5%;
+    background-color: #c9951b;
+}
+
+.logo {
+    animation: logo 3s;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.body-content {
+    animation: body-content 3s;    
+    animation-iteration-count: 1;
+    width: 100%;
+    position: fixed;
+}
+
+.info{
+    height: 15rem;
+    width: 100%;
+    position: fixed;
+    padding-left: 25%;
+    top: 0%;
+    background-color: #967017;
+}
+
+.center{
+    width: 30%;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+}
+
+.pdf-preview {
+    position: fixed;
+    padding-left: 25%;
+    top: 10rem;
+}
+
+.pdf-preview img {
+    padding-left: 25%;
+    width: 25rem;
+    height: 35rem;
+}
+
+.view-pdf {
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    padding-left: 25%;
+    bottom: 0%;
+    background-color: #967017;
+}
+
+a {
+    text-decoration: none;
+}
+
+.view-pdf h1 {
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    padding-left: 15%;
+    color: #ffffff;
+}
+
+@keyframes loading {
+    0% { width: 0%; left: 0%; } 
+    100% { width: 100%; left: 75%; }
+}
+
+@keyframes logo {
+    0% { opacity: 1; transform: scale(0); } 
+    100% { opacity: 1; transform: scale(2); }
+}
+
+@keyframes body-content {
+    0% { opacity: 0; } 
+    99% { opacity: 0; } 
+    100% { opacity: 1; }
+}
