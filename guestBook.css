@@ -32,38 +32,39 @@ body {
 }
 
 .info{
+    position: fixed;
     height: 15rem;
     width: 100%;
-    position: fixed;
-    padding-left: 25%;
     top: 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #967017;
 }
 
-.center{
+.info-center{
     width: 30%;
     color: #ffffff;
     font-family: Roboto, sans-serif;
 }
 
 .pdf-preview {
-    position: fixed;
-    padding-left: 25%;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     top: 10rem;
-}
-
-.pdf-preview img {
-    padding-left: 25%;
-    width: 25rem;
-    height: 35rem;
 }
 
 .view-pdf {
     height: 4rem;
     width: 100%;
     position: fixed;
-    padding-left: 25%;
     bottom: 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #967017;
 }
 
@@ -72,13 +73,13 @@ a {
 }
 
 .view-pdf h1 {
-    width: 30%;
+    width: 100%;
     height: 100%;
-    position: fixed;
-    padding-left: 15%;
     color: #ffffff;
 }
 
+
+/**************** OPENING EFFECT ***************/
 @keyframes loading {
     0% { width: 0%; left: 0%; } 
     100% { width: 100%; left: 75%; }
