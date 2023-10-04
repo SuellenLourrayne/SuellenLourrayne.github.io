@@ -54,6 +54,9 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     top: 25%;
+}
+
+.pdf-preview img {    
     height: 55%;
 }
 
