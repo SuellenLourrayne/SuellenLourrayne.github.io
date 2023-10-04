@@ -59,8 +59,8 @@ body {
 }
 
 img {    
-    max-width: 70%;
-    height: auto;
+    max-width: 100%;
+    height: 70%;
 }
 
 .view-pdf {
