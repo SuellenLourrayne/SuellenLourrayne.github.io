@@ -21,8 +21,8 @@ body {
     flex-direction: column;
     justify-content: center;
     opacity: 0;
-    width: 100px;
-    height: 50px;
+    width: 5%;
+    height: 3%;
 }
 
 .body-content {
