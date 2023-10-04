@@ -33,7 +33,7 @@ body {
 
 .info{
     position: fixed;
-    height: 15rem;
+    height: 30%;
     width: 100%;
     top: 0%;
     display: flex;
@@ -43,7 +43,7 @@ body {
 }
 
 .info-center{
-    width: 30%;
+    width: 40%;
     color: #ffffff;
     font-family: Roboto, sans-serif;
 }
@@ -54,11 +54,12 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    top: 10rem;
+    top: 25%;
+    height: 55%;
 }
 
 .view-pdf {
-    height: 5rem;
+    height: 10%;
     width: 100%;
     position: fixed;
     bottom: 0%;
