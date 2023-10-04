@@ -11,7 +11,7 @@ body {
     position: fixed;
     top: 0%;
     height: 0.5%;
-    background-color: #c9951b;
+    background-color: #ac862e;
 }
 
 .logo {
@@ -39,7 +39,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #967017;
+    background-color: #ac862e;
 }
 
 .info-center{
@@ -67,7 +67,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: #967017;
+    background-color: #ac862e;
 }
 
 a {
