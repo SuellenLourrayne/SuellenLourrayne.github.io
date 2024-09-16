@@ -19,7 +19,7 @@ const FormPage = () => {
       "Detalhes do serviço": details,
     }).toString();
 
-    const whatsAppUrl = `https://wa.me/5588999999999?text=${formData}`;
+    const whatsAppUrl = `https://wa.me/353831938465?text=${formData}`;
     window.open(whatsAppUrl, "_blank");
 
     // Redireciona para a página principal após enviar
