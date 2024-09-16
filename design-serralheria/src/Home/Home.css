@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+  }
+  
+  .gallery {
+    margin: 20px 0;
+  }
+  
+  .photos {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .cta {
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
