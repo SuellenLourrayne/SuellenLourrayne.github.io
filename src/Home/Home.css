@@ -2,7 +2,7 @@
 .App-nav {
   background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semi-transparente */
   color: white;
-  padding: 10px 20px;
+  padding: 10px 20px 10px;
   position: fixed; /* Fixa o menu no topo da página */
   width: 100%;
   top: 0;
@@ -26,12 +26,13 @@
 
 .App-nav li {
   margin: 0;
+  padding: 0;
 }
 
 .App-nav a {
   color: white;
   text-decoration: none;
-  padding: 10px 15px 10px;
+  padding: 10px;
   display: block;
   transition: background-color 0.3s; /* Transição suave para o efeito hover nos links */
 }
