@@ -17,6 +17,9 @@ const Home = () => {
           <img src="/design-serralheria/images/trabalho1.jpg" alt="Trabalho 1" />
           <img src="/design-serralheria/images/trabalho2.jpg" alt="Trabalho 2" />
           <img src="/design-serralheria/images/trabalho3.jpg" alt="Trabalho 3" />
+          <img src="/design-serralheria/images/trabalho4.jpg" alt="Trabalho 4" />
+          <img src="/design-serralheria/images/trabalho5.jpg" alt="Trabalho 5" />
+          <img src="/design-serralheria/images/trabalho6.jpg" alt="Trabalho 6" />
         </div>
       </section>
 
