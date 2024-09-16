@@ -1,6 +1,5 @@
 {
-  "homepage": "https://SuellenLourrayne.github.io/Design-Serralheria",
-  "name": "design-serralheria",
+  "name": "designserralheria",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
