@@ -6,7 +6,7 @@ Este repositório contém o código para o site da **Design Serralheria**, que �
 
 O projeto está organizado da seguinte forma:
 
-- **`design-serralheria/`**: Contém o código-fonte do aplicativo React.
+  - **`/`**: Contém o código-fonte do aplicativo React.
   - **`public/`**: Contém arquivos estáticos, como imagens e o `index.html`.
   - **`src/`**: Contém os arquivos do código-fonte do React.
   - **`package.json`**: Contém as dependências e scripts do projeto.
