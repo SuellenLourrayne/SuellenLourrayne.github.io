@@ -1,5 +1,5 @@
 {
-  "homepage": "https://seu-usuario.github.io/design-serralheria",
+  "homepage": "https://SuellenLourrayne.github.io/Design-Serralheria",
   "name": "design-serralheria",
   "version": "0.1.0",
   "private": true,
@@ -35,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
