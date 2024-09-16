@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Design-Serralheria/static/css/main.db1a93b7.css",
+    "main.js": "/Design-Serralheria/static/js/main.d957a5d2.js",
+    "static/js/488.352267cb.chunk.js": "/Design-Serralheria/static/js/488.352267cb.chunk.js",
+    "static/media/fundo-header.jpeg": "/Design-Serralheria/static/media/fundo-header.b0668829458c50773fe0.jpeg",
+    "index.html": "/Design-Serralheria/index.html",
+    "main.db1a93b7.css.map": "/Design-Serralheria/static/css/main.db1a93b7.css.map",
+    "main.d957a5d2.js.map": "/Design-Serralheria/static/js/main.d957a5d2.js.map",
+    "488.352267cb.chunk.js.map": "/Design-Serralheria/static/js/488.352267cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db1a93b7.css",
+    "static/js/main.d957a5d2.js"
+  ]
+}
