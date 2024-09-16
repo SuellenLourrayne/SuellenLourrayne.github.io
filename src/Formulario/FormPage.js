@@ -13,6 +13,7 @@ const FormPage = () => {
     e.preventDefault();
 
     // Prepara os dados do formulário para enviar ao WhatsApp
+    const message = encodeURIComponent(`Nome: ${name}\nServiço: ${service}\nDetalhes: ${details}`);
     const formData = new URLSearchParams({
       "Nome": name,
       "Serviço solicitado": service,
