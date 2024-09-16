@@ -7,6 +7,7 @@
   width: 100%;
   top: 0;
   left: 0;
+  right: 0;
   z-index: 1000; /* Garante que o menu fique sobre a imagem de fundo */
   transition: background-color 0.3s; /* Transição suave para o efeito hover */
 }
