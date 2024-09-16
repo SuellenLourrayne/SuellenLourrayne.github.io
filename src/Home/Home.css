@@ -31,7 +31,7 @@
 .App-nav a {
   color: white;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 10px 15px 10px;
   display: block;
   transition: background-color 0.3s; /* Transição suave para o efeito hover nos links */
 }
