@@ -9,10 +9,10 @@ const App = () => {
       <header className="App-header">
         <nav className="App-nav">
           <ul>
-            <li><a href="/design-serralheria">Home</a></li>
-            <li><a href="/design-serralheria#gallery">Galeria</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/#gallery">Galeria</a></li>
             <li><a href="/formulario">Contato</a></li>
-            <li><a href="/design-serralheria#about">Sobre a Empresa</a></li>
+            <li><a href="/#about">Sobre a Empresa</a></li>
           </ul>
         </nav>
 
@@ -23,7 +23,7 @@ const App = () => {
     </div>
     <Router>
         <Routes>
-          <Route path="/design-serralheria/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/formulario" element={<FormPage />} />
         </Routes>
       </Router></>
