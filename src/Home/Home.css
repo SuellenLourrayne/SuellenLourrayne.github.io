@@ -65,8 +65,8 @@
 }
 
 .photos img {
-  max-width: 200px;
-  height: auto;
+  max-width: 220px;
+  max-height: 220px;
   margin: 10px;
 }
 
