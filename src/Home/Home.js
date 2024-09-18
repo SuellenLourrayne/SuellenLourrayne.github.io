@@ -15,13 +15,13 @@ const Home = () => {
 
       <section id="about" className="about">
         <div className="form-container">
-            <h2>Sobre Mim</h2>
+            <h2>About Me</h2>
             <p></p>
         </div>
       </section>
 
       <section id="contact" className="cta">
-        <button onClick={handleContactButtonClick}>Entre em contato!</button>
+        <button onClick={handleContactButtonClick}>Get in touch!</button>
       </section>
 
     </div>

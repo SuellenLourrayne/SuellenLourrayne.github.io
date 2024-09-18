@@ -1,6 +1,6 @@
 /* src/Home/Home.css */
 .App-header {
-    background-image: url('../../public/images/fundo-header.png');
+    background-image: url('../../public/images/fundo-header.PNG');
     background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
     background-size: cover;
     background-position: center;

@@ -11,8 +11,8 @@ const App = () => {
         <nav className="App-nav">
           <ul>
             <li><a href="/">Início</a></li>
-            <li><a href="/Projects">Galeria</a></li>
-            <li><a href="/Contact">Contato</a></li>
+            <li><a href="/Projects">Projects</a></li>
+            <li><a href="/Contact">Contact</a></li>
           </ul>
         </nav>
         <h1>Suellen Lourrayne - Personal Portfolio</h1>
