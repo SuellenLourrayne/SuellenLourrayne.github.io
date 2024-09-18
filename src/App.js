@@ -1,33 +1,25 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./Home/Home";
-import FormPage from "./Formulario/FormPage";
+import logo from './logo.svg';
+import './App.css';
 
-const App = () => {
+function App() {
   return (
-    <><div className="App">
+    <div className="App">
       <header className="App-header">
-        <nav className="App-nav">
-          <ul>
-            <li><a href="/design-serralheria">Home</a></li>
-            <li><a href="/design-serralheria#gallery">Galeria</a></li>
-            <li><a href="/formulario">Contato</a></li>
-            <li><a href="/design-serralheria#about">Sobre a Empresa</a></li>
-          </ul>
-        </nav>
-
-
-        <h1>Design Serralheria</h1>
-        <p>Transformando metal em arte!</p>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
-    <Router>
-        <Routes>
-          <Route path="/design-serralheria/" element={<Home />} />
-          <Route path="/formulario" element={<FormPage />} />
-        </Routes>
-      </Router></>
   );
-};
+}
 
 export default App;
