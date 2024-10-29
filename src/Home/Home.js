@@ -22,10 +22,6 @@ const Home = () => {
         </div>
       </section>
 
-      <section id="contact" className="cta">
-        <button onClick={handleContactButtonClick}>Get in touch!</button>
-      </section>
-
     </div>
   );
 };
