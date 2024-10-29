@@ -15,8 +15,7 @@ const App = () => {
             <li><a href="/Contact">Contact</a></li>
           </ul>
         </nav>
-        <h1>Suellen Lourrayne - Personal Portfolio</h1>
-        <p>This website serves as a showcase of the projects I have worked on and highlights my skills in software development and programming.</p>
+        <h1>Suellen Lourrayne - Portfolio</h1>
       </header>
     </div>
     <Router>
