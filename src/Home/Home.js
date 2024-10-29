@@ -16,9 +16,8 @@ const Home = () => {
       <section id="about" className="about">
         <div className="form-container">
             <h2>About Me</h2>
-            <p>My name is Suellen Lourrayne. I&apos;m from Brazil and have been captivated by the art of development since my teenage years. 
-            <br>At 21, I moved to Ireland to enhance my language skills and immerse myself in a new culture. Since then, I&apos;ve dedicated myself to continuous improvement, always seeking new knowledge and opportunities. 
-            <br>Here, you&apos;ll find a collection of my work and projects that reflect my journey so far.</p>
+            <p>My name is Suellen Lourrayne. I &apos; m from Brazil and have been captivated by the art of development since my teenage years. 
+            </p>
         </div>
       </section>
 
