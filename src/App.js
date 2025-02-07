@@ -16,8 +16,8 @@ const App = () => {
           </ul>
         </nav>
         <h2>Suellen Lourrayne - Professional Portfolio</h2>
-		<p>I am from Brazil and have been captivated by the art of development since my teenage years. <br>
-        At 21, I moved to Ireland to enhance my language skills and immerse myself in a new culture. <br>
+		<p>I am from Brazil and have been captivated by the art of development since my teenage years. </br>
+        At 21, I moved to Ireland to enhance my language skills and immerse myself in a new culture. </br>
 		Since then, I have dedicated myself to continuous improvement, always seeking new knowledge and opportunities. </p>
         <p>Here, you will find a collection of my work and projects that reflect my journey so far.</p>
       </header>
