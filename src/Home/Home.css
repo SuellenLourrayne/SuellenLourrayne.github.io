@@ -1,7 +1,7 @@
 /* src/Home/Home.css */
 .App-header {
     background-image: url('../../public/images/fundo-header.jpeg');
-    background-color: rgba(248, 131, 121, 0.5); /* Cor preta com 50% de opacidade */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay; /* Modo de mistura */
@@ -21,7 +21,7 @@
   }
   
   .App-nav {
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semi-transparente */
+    background-color: rgba(248, 131, 121, 0.5); /* Fundo preto semi-transparente */
     color: white;
     padding: 1px 20px 1px 1px;
     position: fixed; /* Fixa o menu no topo da página */
