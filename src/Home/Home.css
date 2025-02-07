@@ -21,7 +21,7 @@
   }
   
   .App-nav {
-    background-color: rgba(243, 207, 198, 0.5); /* Fundo preto semi-transparente */
+    background-color: rgba(169, 92, 104, 0.5); /* Fundo preto semi-transparente */
     color: white;
     padding: 1px 20px 1px 1px;
     position: fixed; /* Fixa o menu no topo da página */
@@ -34,7 +34,7 @@
   }
   
   .App-nav:hover {
-    background-color: rgba(243, 207, 198, 0.8); /* Fundo preto mais opaco quando o mouse passa */
+    background-color: rgba(169, 92, 104, 0.8); /* Fundo preto mais opaco quando o mouse passa */
   }
   
   .App-nav ul {
