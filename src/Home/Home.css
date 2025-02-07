@@ -1,7 +1,7 @@
 /* src/Home/Home.css */
 .App-header {
     background-image: url('../../public/images/fundo-header.jpeg');
-    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+    background-color: rgba(248, 131, 121, 0.5); /* Cor preta com 50% de opacidade */
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay; /* Modo de mistura */
@@ -34,7 +34,7 @@
   }
   
   .App-nav:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Fundo preto mais opaco quando o mouse passa */
+    background-color: rgba(248, 131, 121, 0.8); /* Fundo preto mais opaco quando o mouse passa */
   }
   
   .App-nav ul {
