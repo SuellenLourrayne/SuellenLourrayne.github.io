@@ -47,7 +47,7 @@
   padding: 40px;
   text-align: center;
   position: relative;
-  top: 0;
+  top: 5rem;
 }
 
 .App-nav {
@@ -56,7 +56,7 @@
   padding: 1px 20px 1px 1px;
   position: fixed; /* Fixa o menu no topo da página */
   width: 100%;
-  top: 10rem;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 1000; /* Garante que o menu fique sobre a imagem de fundo */
@@ -86,10 +86,6 @@
   padding: 10px;
   display: block;
   transition: background-color 0.3s; /* Transição suave para o efeito hover nos links */
-}
-
-.App-nav a:hover {
-  background-color: rgba(255, 255, 255, 0.2); /* Fundo branco semi-transparente ao passar o mouse */
 }
 
 .about {
