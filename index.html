@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Suellen Lourrayne - Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header>
+    <h1>Suellen Lourrayne</h1>
+    <p>Web Developer | Problem Solver</p>
+  </header>
+  <main>
+    <section id="about" class="reveal">
+      <div class="about-pic">
+		<img src="images/profile.png" alt="Suellen Lourrayne" style="width:100%; height:100%; border-radius: 50%;" />
+	  </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm a web developer passionate about building practical solutions.
+          This portfolio showcases real projects I've built to help local businesses.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="reveal">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <div class="project-text">
+            <h3>JS Cleaning Service</h3>
+            <p>A one page website for a cleaning company presenting their story, services, and contact details.</p>
+            <a href="https://cleaningservicejs.com" target="_blank" rel="noopener noreferrer">Live Site</a>
+            <a href="https://github.com/SuellenLourrayne/JSCleaningService" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+          <div class="project-screenshot" title="JS Cleaning Service screenshot">
+			<img src="images/jsCleaningService.png" alt="JS Cleaning Service Screenshot" style="width:100%; height:100%; border-radius: 12px;" />
+		  </div>
+        </li>
+
+        <li>
+          <div class="project-text">
+            <h3>Register Your Car – Bonnington Hotel</h3>
+            <p>A web form that allows hotel guests to register their vehicles for parking access control.</p>
+            <a href="https://register-your-car.vercel.app" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="https://github.com/SuellenLourrayne/RegisterYourCar" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+          <div class="project-screenshot" title="Register Your Car screenshot">
+			<img src="images/registerYourCar.png" alt="Register Your Car Screenshot" style="width:100%; height:100%; border-radius: 12px;" />
+		  </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="reveal">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:suellenlourrayne@gmail.com">suellenlourrayne@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/suellenlourrayne" target="_blank" rel="noopener noreferrer">suellenlourrayne</a></p>
+      <p>Instagram: <a href="https://instagram.com/suellenlourrayne" target="_blank" rel="noopener noreferrer">@suellenlourrayne</a></p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Suellen Lourrayne
+  </footer>
+
+  <script>
+    // Intersection Observer for fade-in reveal on scroll
+    document.addEventListener('DOMContentLoaded', () => {
+      const reveals = document.querySelectorAll('.reveal');
+
+      const options = {
+        threshold: 0.1
+      };
+
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if(entry.isIntersecting){
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target); // Animate once only
+          }
+        });
+      }, options);
+
+      reveals.forEach(reveal => {
+        observer.observe(reveal);
+      });
+    });
+  </script>
+</body>
+</html>
